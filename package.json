@@ -1,0 +1,30 @@
+{
+  "name": "hash-files-cmd",
+  "version": "1.0.0",
+  "description": "A wrapper around https://github.com/mac-/hash-files designed to be used for scripting in the windows shell (cmd). ",
+  "main": "./index.js",
+  "bin": {
+    "hash-files-cmd": "./bin/hash-files-cmd"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htho/hash-files-cmd.git"
+  },
+  "keywords": [
+    "node",
+    "hash",
+    "hash-files"
+  ],
+  "author": "Hauke Thorenz <htho@thorenz.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htho/hash-files-cmd/issues"
+  },
+  "homepage": "https://github.com/htho/hash-files-cmd#readme",
+  "dependencies": {
+    "hash-files": "^1.1.1"
+  }
+}
